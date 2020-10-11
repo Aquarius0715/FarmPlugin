@@ -1,0 +1,33 @@
+#種子の設定をここに書いていく
+Seeds:
+  #識別名
+  Inferior_Potato:
+    #マイクラ内のアイテム
+    Material: Potato
+    #アイテムに表示される名前(DisplayName)
+    DisplayName: §6§l§n粗悪なじゃがいも
+     #アイテムに表示する説明(lore)
+    Lore:
+      - 北海道で獲れたじゃがいも。
+      - 肉じゃがにするには十分だろう。
+      - ¥50で売却可能
+    #作物が最大まで成長する時間(秒)
+    MaxGrowUpTime: 600
+    #作物が最大まで成長して完全に枯れるまでの時間(秒)
+    WitherTime: 300
+    #作物が成長してる間: 成長が早まる時間(秒)
+    #作物が老衰してる間: 老衰が遅延する時間(秒)
+    WaterEffect: 1
+
+  Ordinary potatoes:
+    Material: Potato
+    DisplayName: §6§l§n普通のじゃがいも
+    Lore:
+      - 北海道で獲れたじゃがいも。
+      - ほくほくで香りもよい。
+      - ¥100で売却可能
+    MaxGrowUpTime: 1200
+    WitherTime: 300
+    WaterEffect: 1
+    ResultItem:
+      -

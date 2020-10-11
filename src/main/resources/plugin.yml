@@ -1,0 +1,7 @@
+name: FarmPlugin
+version: ${project.version}
+main: aquarius0715.farmplugin.FarmPlugin
+api-version: 1.13
+commands:
+  farmadmin:
+
